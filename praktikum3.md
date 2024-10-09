@@ -2,7 +2,7 @@
 Käesolevas praktikumis paigaldasin Ubuntu 22.04 Desktopi kasutades LVM ketaste vormindamist. 
 Katsetasin Lubuntut ja pidin esitama selle kohta pildi screenfetch commandist.
 
-##Lubuntu
+## Lubuntu
 ![Lubuntu](https://github.com/user-attachments/assets/c16769ad-767b-45ef-9ef2-6a164ceff637)
 
 Lõpuks lisasin virtuaalmaisnale täiendava kõvaketta ja suurendasin root partitsiooni selle võrra ning pidin esitama pildid vgdisplay,lvdisplay,dh -f ja lsblk käskude kohta. 
