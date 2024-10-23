@@ -28,3 +28,5 @@ Microsofti arvates peaksin ma Viiruse- ja ohutõrje alamseadistuste juures OneDr
 ## 4.8 pilt
 ![image](https://github.com/user-attachments/assets/947de228-54cf-4253-b2f4-e1de1130c992)
 
+## 4.9 pilt
+![image](https://github.com/user-attachments/assets/50923895-f117-485e-9343-55f906545f62)
