@@ -1,5 +1,5 @@
 ### Windowsi turvalisus
-Selles praktikumis tuttvusin Windowsi seadete ja turva tööriistatega ning kuidas mitmekasutajasüsteemi turvata. Tuttvusin ka Windows 11 muudatustega praktikum ise võttis mul umbes.
+Selles praktikumis tuttvusin Windowsi seadete ja turva tööriistatega ning kuidas mitmekasutajasüsteemi turvata. Tuttvusin ka Windows 11 muudatustega, praktikum ise võttis mul umbes 8 tundi aega.
 
 ## 4.1 pilt
 ![4 1](https://github.com/user-attachments/assets/57225c28-7780-4499-ac15-7fecf3672d72)
