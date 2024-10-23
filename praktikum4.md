@@ -3,6 +3,7 @@ Selles praktikumis tuttvusin windowsi turva sättetega ja seadistasin oma turvas
 
 ## 4.1 pilt
 ![4 1](https://github.com/user-attachments/assets/57225c28-7780-4499-ac15-7fecf3672d72)
+![image](https://github.com/user-attachments/assets/b2d6bf27-8727-4746-840a-a9a756145bff)
 
 ## 4.2 pilt
 ![4 2_oige](https://github.com/user-attachments/assets/250175dd-7b94-4ecd-a5f4-486b943fae52)
@@ -30,3 +31,9 @@ Microsofti arvates peaksin ma Viiruse- ja ohutõrje alamseadistuste juures OneDr
 
 ## 4.9 pilt
 ![image](https://github.com/user-attachments/assets/50923895-f117-485e-9343-55f906545f62)
+
+## 4.10 pilt
+![image](https://github.com/user-attachments/assets/aab7009c-8dd5-45ff-8d35-f246232069e9)
+![image](https://github.com/user-attachments/assets/680d254b-510b-4343-9f77-714b5db3439b)
+
+
