@@ -15,4 +15,21 @@
 ![image](https://github.com/user-attachments/assets/1a8e8a8c-9b20-4af3-91f2-6cdf7da47f09)
 
 ## punkt 5-5
-![image](https://github.com/user-attachments/assets/3475233d-8076-45c4-962e-4a198821484e)
+### Setuid õigust on vaja, et programm saaks töötada opetaja õigustega kui jukuisa käivitab selle.
+### ![image](https://github.com/user-attachments/assets/3475233d-8076-45c4-962e-4a198821484e)
+
+## punkt 5-6
+### Jah kui programm sisaldab turvaauke võib ründaja saada ligipääsu tundlikele failidele või süsteemi konfiguratsioonidele.
+
+## punkt 5-7 
+### Kasutajad, kes saavad peetri loodud faile yhiskaustast kustudad on peeter,opetaja ja root.
+
+## punkt 5-8
+### # file: hinded.txt
+### # owner: opetaja
+### # group: opetaja
+### user::rw-
+### group::---
+### group:direktor:rw-
+### mask::rw-
+### other::---
