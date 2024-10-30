@@ -11,7 +11,7 @@
 ### Igal kasutajal on omanimeline grupp, sest siis saab kasutaja luua faile ja kaustu grupi õigustega muretsemata, et teistele kasutajatele antakse automaatselt juurdepääs. Sama on ka faile ja kaustu lihtsam jagada lisades teised kasutaja gruppi selle asemel, et iga faili ja kasuta õigusi muutma hakkata. 
 
 ## punkt 5-4
-###  minimaalsed õigused, mis on vajalikud tavakasutajal faili uusfail.txt sisu lugemiseks on grupile käivitamis õigus kaustale majasiseseks-kasutamiseks ja grupile faili lugemisõigus.
+###  Minimaalsed õigused, mis on vajalikud tavakasutajal faili uusfail.txt sisu lugemiseks on grupile käivitamis õigus kaustale majasiseseks-kasutamiseks ja grupile faili lugemisõigus.
 ![image](https://github.com/user-attachments/assets/1a8e8a8c-9b20-4af3-91f2-6cdf7da47f09)
 
 ## punkt 5-5
