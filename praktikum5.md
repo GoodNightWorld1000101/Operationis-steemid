@@ -2,7 +2,7 @@
 
 ## punkt 5-1 
 ### a) Kaustal peab olema käivitamisõigus ja failil peab olema lugemisõigus.
-### b) Kaustale on vaja kirjutamis ja käivitamisõigusi failile ei ole vaja mitte mingeid õigusi.
+### b) Kaustale on vaja kirjutamis ja käivitamisõigusi, failile ei ole vaja mitte mingeid õigusi.
 
 ## punkt 5-2
 ### chmod a=x skriptifail ei ole piisav õigus shelli skriptifaili käivitamiseks, sest shellil on vaja ka skriptifaili sisu lugeda, et seda tõlgendada.
