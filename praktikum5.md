@@ -1,8 +1,8 @@
 # Praktikum 5 failioigused
 
 ## punkt 5-1 
-### a) Kaustal peab olema käivitamis õigus ja failil peab olema lugemisõigus.
-### b) Kaustale on vaja kirjutamis ja käivitamis õigusi failile ei ole vaja mitte mingeid õigusi.
+### a) Kaustal peab olema käivitamisõigus ja failil peab olema lugemisõigus.
+### b) Kaustale on vaja kirjutamis ja käivitamisõigusi failile ei ole vaja mitte mingeid õigusi.
 
 ## punkt 5-2
 ### chmod a=x skriptifail ei ole piisav õigus shelli skriptifaili käivitamiseks, sest shellil on vaja ka skriptifaili sisu lugeda, et seda tõlgendada.
@@ -33,3 +33,7 @@
 ### group:direktor:rw-
 ### mask::rw-
 ### other::---
+
+## punkt 5-9
+### Mitte keegi isegi mitte root kasutaja ei saa faili sisu modifitseerida kuni seal on immutability parameeter aktiivne.
+### Faili kustutamiseks peab jooksutama käsku "sudo chattr -i testfail-2" ja siis "rm testfail-2".
