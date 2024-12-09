@@ -1,21 +1,25 @@
 ## ülesanne 3
-```#!/bin/sh echo "Sisesta nimi:" read nimi echo "Sisesta eriala:" read eriala echo "Sisesta nr:" read matriklinumberecho "nimi: $nimi eriala: $eriala NR: $matriklinumber" ```
+```
+#!/bin/sh
+echo "Sisesta nimi:"
+read nimi
+echo "Sisesta eriala:"
+read eriala
+echo "Sisesta nr:"
+read matriklinumber
+echo "nimi: $nimi
+eriala: $eriala
+NR: $matriklinumber"
+```
 
 
 ## output 3 
 ![image](https://github.com/user-attachments/assets/b98dd360-5a59-4dd5-a543-86e97baec57b)
 
 ## ülesanne 4
-```#!/bin/bash
-
-"faili laiendi muutmine kaustas"
+```
 #!/bin/bash
-
-# Kontrollime, et kasutaja sisestas kaks argumenti
-if [ $# -ne 2 ]; then
-    echo "Kasutamine: $0 <algne_laiend> <uus_laiend>"
-    exit 1
-fi
+"faili laiendi muutmine kaustas"
 
 # Argumendid
 algne_laiend=$1
