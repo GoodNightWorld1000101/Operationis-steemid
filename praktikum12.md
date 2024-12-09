@@ -17,6 +17,6 @@ echo "nimi: $nimi
 
 eriala: $eriala
 
-NR: $matriklinumber"'''
+NR: $matriklinumber" '''
 
 ![image](https://github.com/user-attachments/assets/b98dd360-5a59-4dd5-a543-86e97baec57b)
