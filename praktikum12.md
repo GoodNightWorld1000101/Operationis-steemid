@@ -126,6 +126,7 @@ echo "$(power $x $y)"
 ```
 ### ekraanipilt 7
 ![image](https://github.com/user-attachments/assets/6c66d4c5-3e65-4226-bcc8-3f47f58daaf7)
-![image](https://github.com/user-attachments/assets/ca7968d0-ce98-400b-9b2d-f5df7b048d1e)
+![image](https://github.com/user-attachments/assets/3314273b-fe8b-4bf6-b50c-fdea03f9986c)
+
 
 
