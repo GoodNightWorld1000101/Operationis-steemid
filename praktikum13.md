@@ -9,6 +9,8 @@
 #$nr:	küsimuse number
 #$param: mis parameetriga tegemist (võimalikult lühidalt)
 #$sisu:	väljastatav sisu
+
+
 function valjasta{
 	param ($nr, $param, $sisu)
 	$fail = ".\skripti_tulemus.txt"
@@ -32,41 +34,57 @@ function valjasta{
 
 
 #1yl muutujad
+
 $hostname = hostname
 $PS_version = $PSVersionTable.PSVersion.ToString()
 $windows_version = Get-ComputerInfo | Select-Object Osname, OsVersion
+
 #2yl muutujad
+
 $network = Get-CimInstance Win32_NetworkAdapterConfiguration -Filter "IPEnabled='True'"
 $ipAddress = $network.IPAddress[0]
 $subnetMask = $network.IPSubnet[0]
 $gateway = $network.DefaultIPGateway
 $dhcpEnabled = $network.DHCPEnabled 
 $macAddress = $network.MACAddress
+
 #3yl muutujad
+
 $cpu = Get-CimInstance Win32_Processor
 $ram = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 2)
+
 #4yl muutujad
+
 $gpu = Get-CimInstance Win32_VideoController
 $gpuName = $gpu.Name
 $driverVersion = $gpu.DriverVersion
 $driverDate = $gpu.DriverDate
 $screenResolution = "$($gpu.CurrentHorizontalResolution) x $($gpu.CurrentVerticalResolution)"
+
 #5yl muutjuad
+
 $drives = Get-CimInstance Win32_LogicalDisk -Filter "DriveType=3"
 $Cdrives = Get-CimInstance Win32_LogicalDisk -Filter "DeviceID='C:'"
 $totalSpace = [math]::Round($drives.Size / 1GB, 2)
 $freeSpace = [math]::Round($Cdrives.FreeSpace / 1GB, 2)
 
 #7yl muutujad
+
 $users = Get-CimInstance Win32_UserAccount
 $localUsers = $users | Where-Object { $_.LocalAccount -eq $true }
 $disabledUsers = $localUsers | Where-Object { $_.Disabled -eq $true }
+
 #8yl muutujad
+
 $processCount = (Get-Process).Count
+
 #yl 9 muutujad
+
 $recentProcesses = Get-Process | Where-Object { $_.StartTime -ne $null } |
     Sort-Object StartTime -Descending | Select-Object -First 10 -Property Name, Id, StartTime
+
 #yl 10 muutujad
+
 $currentDateTime = Get-Date
 
 
