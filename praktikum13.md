@@ -4,8 +4,8 @@
 ![image](https://github.com/user-attachments/assets/f5daabff-7cb5-4138-a20d-74e7aa2dc094)
 ![image](https://github.com/user-attachments/assets/528d0229-69ed-4cff-ba85-a192117f0300)
 
-'''
 
+"""
 #$nr:	küsimuse number
 #$param: mis parameetriga tegemist (võimalikult lühidalt)
 #$sisu:	väljastatav sisu
@@ -141,4 +141,4 @@ valjasta 9 "10 viimast kaivitatud protsessi" $recentProcesses
 #10yl
 valjasta 10 "aeg ja kuupaev" $currentDateTime
 
-'''
+"""
